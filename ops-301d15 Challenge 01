@@ -1,0 +1,15 @@
+#Abel Ortega
+#08/30/2022
+
+#This will create our script file
+touch CFC01.sh
+nano CFC01.sh
+//////////////////////////////////////////////////////
+#This is the code that will go inside our script
+#!/bin/bash
+cd /var/log
+sudo cp syslog ~/Awake444/
+today=`date '+%Y_%m_%d__%H_%M_%S'`;
+filename="/Awake444/$CFC01Dated.sh"
+echo $filename;
+/////////////////////////////////////////////////////
