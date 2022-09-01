@@ -8,8 +8,10 @@ read -p "Please Enter Path:" r1
 parent=$(dirname "$r1")
 cd "$parent"
 echo "Permissions will be set forth for the newly created directory"
-read -p "Enter permission level:
+read -p "Activating Permissions..."
 chmod 777
+find . -l~/r1/
+ls -l~/r1/
 
 --------------------------------------
 #Wasn't too sure how to tie in the chmod 777 to prompt the user for input. I know that 777 is the numerical value equivalent to allow rwxrwxrwx, but
