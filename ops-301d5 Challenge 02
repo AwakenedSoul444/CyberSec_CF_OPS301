@@ -1,0 +1,16 @@
+Abel Ortega
+08/31/2022
+
+-------------------------------------
+
+#!/bin/bash
+read -p "Please Enter Path:" r1
+parent=$(dirname "$r1")
+cd "$parent"
+echo "Permissions will be set forth for the newly created directory"
+read -p "Enter permission level:
+chmod 777
+
+--------------------------------------
+#Wasn't too sure how to tie in the chmod 777 to prompt the user for input. I know that 777 is the numerical value equivalent to allow rwxrwxrwx, but
+I couldn't find info on how to add that to this script.
