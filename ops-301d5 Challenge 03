@@ -1,0 +1,14 @@
+Abel Ortega
+09/01/2022
+
+touch CF3.sh
+nano CF3.sh
+----------------------------------------
+#!/bin/bash
+echo "Hello World!" && ping 127.0.0.1 && lshw -class network
+
+i=int
+echo "Enter Your Name: "
+read Fname
+echo "Welcome ${Fname}!" elseif ${Fname} = $0 do read Fname
+----------------------------------------
