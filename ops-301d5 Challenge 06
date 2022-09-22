@@ -1,0 +1,30 @@
+#We start by creating or script file in Ubuntu in python form as such:
+touch CH6.py
+#Then we open with :
+nano CH6.py
+#Now that we are inside we will need to add three variables using the print() function
+#We also need to have Terminal identify this as a Python script so we will do this
+
+#by adding the following:                                          
+#!/bin/python3
+
+import os
+pclookup=os.system('whoami')
+netlookup=os.system('ip a')
+listv=os.system('lshw -short')
+
+print("Hello there we are going to output 3 commands that are identified below as:")
+print("netlookup")
+print("pclookup")
+print("listv")
+
+#We need to add the import os string in to our script so that Python/Linux will understand that we are using  commands
+from the bash/unix language inside our Python script. Additionally we can also use the
+import subprocess command which is actually preferred as it has greater compatability features.
+
+#We will need to chmod +x ./CH6.py to allow our script to be ran in the bash terminal
+
+#We will then run our script with ./CH6.py and receive our outputs.
+
+
+
